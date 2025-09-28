@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #07492b;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+    width:100%;  
+    margin: 10px; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
+
+.logo{
+    background-color:#92be00;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    order: 1;
+}
+
+.nHeader{
+    float:left;
+    padding: 40px;
+    margin-top: 60px;
+    margin-left: 10px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.nav_style{
+    background-color:#92be00;
+    margin: 10px;
+    padding: 10px;
+    flex: 2;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #dce61a;
+}
+
+
+.cont-main{
+    margin: 10px; padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.URLS {
+    background-color:rgb(141, 229, 112);
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0 auto;
+    font-size: 18px;
+    flex: 1, 1;
+    order: 1;
+}
+
+.URLS h2{
+    text-align: center;
+}
+
+.olink{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.olink:hover {
+    color: #dce61a;
+}
+
+.Table{
+    background-color:rgb(198, 227, 120);
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0 auto;
+    font-size: 18px;
+    flex: 1, 1;
+    order: 0;
+}
+
+.Table h2{
+    text-align: center;
+}
+
+.tablest{
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.tabhead{
+    background-color: #dce61a;
+}
+
+.nochet{
+    background-color: #e6c41a;
+}
+
+.chet{
+    background-color: #e6911a;
+}
+
+.Form {
+    background-color:rgb(100, 179, 84);
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0 auto;
+    font-size: 18px;
+    flex: 1, 1;
+    order: 1;
+}
+
+.footer{
+    width:100%; background-color:#41b370; margin: 10px; padding: 10px; height: 170px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.nfooter{
+    float:left;
+    padding: 40px;
+    margin-top: 60px;
+    margin-left: 10px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 800px) {
+  .header {
+    background-color:#92be00;
+    flex-direction: row;
+  }
+  .nav_style{
+    justify-content: end;
+    flex-direction: row;
+  }
+  .URLS{
+    flex: 0;
+    order: 0;
+  }
+  .Table{
+    flex: 0;
+    order: 0;
+  }
+  .Form{
+    flex: 0;
+    order: 0;
+  }
+}
