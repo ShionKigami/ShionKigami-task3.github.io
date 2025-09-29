@@ -149,7 +149,7 @@ body {
     color: #ffffff;
 }
 
-@media screen and (min-width: 950px) {
+@media (min-width: 992px) {
   .header {
     background-color:#92be00;
     flex-direction: row;
