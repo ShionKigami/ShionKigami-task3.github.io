@@ -26,7 +26,7 @@ body {
     float:left;
     padding: 20px;
     margin-top: 60px;
-    font-size: 40px;
+    font-size: 30px;
     color: #ffffff;
 }
 
@@ -63,9 +63,8 @@ body {
 .URLS {
     background-color:rgb(141, 229, 112);
     max-width: 960px;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 0 auto;
+    margin: 10px;
+    padding: 10px;
     font-size: 18px;
     flex: 1, 1;
     order: 1;
@@ -89,9 +88,8 @@ body {
 .Table{
     background-color:rgb(198, 227, 120);
     max-width: 960px;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 0 auto;
+    margin: 10px;
+    padding: 10px;
     font-size: 18px;
     flex: 1, 1;
     order: 0;
@@ -124,10 +122,8 @@ body {
 .Form {
     background-color:rgb(100, 179, 84);
     max-width: 960px;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 0 auto;
+    margin: 10px;
+    padding: 10px;
     font-size: 18px;
     flex: 1, 1;
     order: 1;
