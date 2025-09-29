@@ -24,7 +24,7 @@ body {
 
 .nHeader{
     float:left;
-    padding: 20px;
+    padding: 10px;
     margin-top: 60px;
     font-size: 30px;
     color: #ffffff;
@@ -79,6 +79,7 @@ body {
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
+    padding: 10px;
 }
 
 .olink:hover {
