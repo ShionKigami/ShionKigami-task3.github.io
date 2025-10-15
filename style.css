@@ -11,7 +11,7 @@ body {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    flex: 0;
+    order: 0;
 }
 
 .logo{
@@ -57,14 +57,14 @@ body {
     margin: 10px; padding: 10px;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    order: 1;
 }
 
 .URLS {
     background-color:rgb(141, 229, 112);
     max-width: 960px;
-    margin: 10px;
-    padding: 10px;
+    margin: 10px auto;
+    padding: 10px auto;
     font-size: 18px;
     flex: 1, 1;
     order: 1;
@@ -89,8 +89,8 @@ body {
 .Table{
     background-color:rgb(198, 227, 120);
     max-width: 960px;
-    margin: 10px;
-    padding: 10px;
+    margin: 10px auto;
+    padding: 10px auto;
     font-size: 18px;
     flex: 1, 1;
     order: 0;
@@ -123,8 +123,8 @@ body {
 .Form {
     background-color:rgb(100, 179, 84);
     max-width: 960px;
-    margin: 10px;
-    padding: 10px;
+    margin: 10px auto;
+    padding: 10px auto;
     font-size: 18px;
     flex: 1, 1;
     order: 1;
@@ -134,7 +134,7 @@ body {
     width:100%; background-color:#41b370; margin: 10px; padding: 10px; height: 170px;
     display: flex;
     flex-direction: column;
-    flex: 2;
+    order: 2;
 }
 
 .nfooter{
@@ -156,15 +156,15 @@ body {
     flex-direction: row;
   }
   .URLS{
-    flex: 0;
+    flex: 1;
     order: 0;
   }
   .Table{
-    flex: 0;
+    flex: 1;
     order: 0;
   }
   .Form{
-    flex: 0;
+    flex: 1;
     order: 0;
   }
 }
